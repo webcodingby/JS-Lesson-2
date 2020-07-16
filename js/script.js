@@ -16,8 +16,26 @@ console.log(`
             - ${userBye}
             `);
 
+// Task #2
+
+let userNumber = +prompt(`Enter your Number`);
+
+console.log('Числа кратные 5');
 
 
+for (let i = 0; i  <= userNumber; i++) {
+  if (i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+console.log('Числа кратные 2');
+
+for (let i = 0; i <= userNumber; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
 
 
 
