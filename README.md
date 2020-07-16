@@ -1,5 +1,4 @@
 # JS-Lesson-2
-js
 
 // Task #1
 
